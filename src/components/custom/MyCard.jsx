@@ -8,7 +8,7 @@ import MyButton from "./MyButton";
 
 export default function MyCard() {
   return (
-    <Card className="mt-40 ml-20 max-w-sm md:max-w-xl bg-white rounded-2xl border border-gray-300 p-6 transition-transform duration-300 hover:scale-105">
+    <Card className="mt-20 md:mt-40 ml-20 max-w-sm md:max-w-xl bg-white rounded-2xl border border-gray-300 p-6 transition-transform duration-300 hover:scale-105 mb-10 md:mb-0">
       <CardHeader className="text-left">
         <CardTitle className="text-5xl font-alfa text-red-500 drop-shadow-md">
           Best Burgers in Town
