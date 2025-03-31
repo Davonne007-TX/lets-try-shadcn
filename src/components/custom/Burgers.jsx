@@ -16,7 +16,7 @@ export default function Burgers() {
       </h2>
       <Card>
         <CardHeader>
-          <section className="flex gap-10">
+          <section className="flex flex-col md:flex-row gap-10">
             <div className="flex flex-col">
               <CardTitle className="text-3xl">Double Cheeseburger</CardTitle>
               <CardDescription className="text-2xl">
@@ -36,7 +36,7 @@ export default function Burgers() {
         </CardHeader>
 
         <CardHeader>
-          <section className="flex gap-10">
+          <section className="flex flex-col md:flex-row gap-10">
             <div className="flex flex-col">
               <CardTitle className="text-3xl">Extra Crispy Fries</CardTitle>
               <CardDescription className="text-2xl">
@@ -57,7 +57,7 @@ export default function Burgers() {
         </CardHeader>
 
         <CardHeader>
-          <section className="flex gap-10">
+          <section className="flex flex-col md:flex-row gap-10">
             <div className="flex flex-col">
               <CardTitle className="text-3xl">Hot Wings</CardTitle>
               <CardDescription className="text-2xl">
