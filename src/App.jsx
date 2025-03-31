@@ -5,7 +5,7 @@ import { MyAccordion } from "./components/custom/MyAccordion";
 
 function App() {
   return (
-    <main className="bg-">
+    <main className="bg-[url('./images/burger.jpg')] bg-cover min-h-screen">
       <Header />
       {/* <MyButton
         btnTxt={"Ciick Me"}

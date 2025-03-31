@@ -8,8 +8,8 @@ import {
 
 export default function Nav() {
   return (
-    <NavigationMenu className="mx-auto text-white w-full">
-      <NavigationMenuList className="flex font-serif mt-4 gap-6 p-4 rounded-full">
+    <NavigationMenu className="text-white mr-20">
+      <NavigationMenuList className="flex font-serif mt-4 gap-6 p-2 rounded-full">
         <NavigationMenuItem>
           <NavigationMenuLink className="text-2xl  px-4 py-2 transparent rounded">
             Menu
