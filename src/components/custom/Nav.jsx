@@ -12,22 +12,22 @@ export default function Nav() {
       <NavigationMenuList className="flex font-serif mt-4 gap-6 p-2 rounded-full">
         <NavigationMenuItem>
           <NavigationMenuLink className="text-2xl  px-4 py-2 transparent rounded">
-            Menu
-          </NavigationMenuLink>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuLink className="text-2xl  px-4 py-2 rounded cursor-pointer">
             About
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink className="text-2xl  px-4 py-2 rounded cursor-pointer">
-            Services
+            Menu
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink className="text-2xl  px-4 py-2 rounded cursor-pointer">
+            Catering
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink className="text-2xl px-4 py-2 rounded cursor-pointer">
-            Contact
+            Locations
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
