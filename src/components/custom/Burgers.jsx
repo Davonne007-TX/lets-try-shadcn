@@ -10,7 +10,7 @@ import Price from "./Price";
 
 export default function Burgers() {
   return (
-    <section className="max-w-5xl mx-auto mt-20">
+    <section className="max-w-5xl mx-auto pb-20 mt-20">
       <h2 className="text-center text-5xl text-red-500 py-10 font-alfa">
         Classic Favorites
       </h2>
@@ -55,9 +55,26 @@ export default function Burgers() {
             />
           </section>
         </CardHeader>
+
         <CardHeader>
-          <CardTitle>All American Burger</CardTitle>
-          <CardDescription>Card Description</CardDescription>
+          <section className="flex gap-10">
+            <div className="flex flex-col">
+              <CardTitle className="text-3xl">Hot Wings</CardTitle>
+              <CardDescription className="text-2xl">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum lectus sapien, pretium sit amet augue sit amet,
+                volutpat porttitor erat. Vestibulum lectus sapien, pretium sit
+                amet augue sit amet, volutpat porttitor erat
+              </CardDescription>
+
+              <Price price="7.99" />
+            </div>
+            <Image
+              myImage="./images/wings.jpg"
+              alt="Cheesebuger with special sause and toppings, Photo by amirali mirhashemian on Unsplash"
+            />
+          </section>
         </CardHeader>
       </Card>
     </section>
