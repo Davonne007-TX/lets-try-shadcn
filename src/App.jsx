@@ -1,5 +1,5 @@
 import "./App.css";
-import Burgers from "./components/custom/Burgers";
+import ClassicFavorites from "./components/custom/ClassicFavorites";
 import Header from "./components/custom/Header";
 import MyCard from "./components/custom/MyCard";
 
@@ -11,7 +11,7 @@ function App() {
         <MyCard />
       </section>
 
-      <Burgers />
+      <ClassicFavorites />
     </main>
   );
 }
