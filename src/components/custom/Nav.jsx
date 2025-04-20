@@ -53,6 +53,7 @@ export default function Nav() {
               ))}
               <MyButton
                 btnTxt={"Order Now"}
+                onClick={closeMobileNav}
                 btnStyles={"text-xl bg-white text-black hover:bg-red-500"}
               />
             </ul>
