@@ -6,7 +6,7 @@ import MyCard from "./components/custom/MyCard";
 function App() {
   return (
     <main>
-      <section className="bg-[url('./burger.jpg')] bg-cover min-h-screen pb-10">
+      <section className="bg-[url('/images/burger.jpg')] bg-cover min-h-screen pb-10">
         <Header />
         <MyCard />
       </section>
