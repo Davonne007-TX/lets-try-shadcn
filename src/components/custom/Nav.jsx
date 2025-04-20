@@ -45,7 +45,7 @@ export default function Nav() {
               {["About", "Menu", "Catering", "Locations"].map((item) => (
                 <li
                   key={item}
-                  className="cursor-pointer text-2xl hover:text-red-500"
+                  className="cursor-pointer text-2xl hover:underline "
                   onClick={closeMobileNav}
                 >
                   {item}
